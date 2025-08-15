@@ -22,7 +22,7 @@ PASTAS = {
 }
 
 LINKS = {
-     "youtube": "https://www.youtube.com/@Matiass270",
+     "youtube":"COLE_AQUI_O_LINK_DO_YOUTUBE",
     "tiktok": "COLE_AQUI_O_LINK_DO_TIKTOK",
     "instagram": "COLE_AQUI_O_LINK_DO_INSTAGRAM"
 }
@@ -38,3 +38,4 @@ while True:
         baixar(plataforma, link, PASTAS[plataforma])
     print(f"[{datetime.now()}] Aguardando próxima verificação...")
     time.sleep(3600)  # Espera 1 hora antes de checar de novo
+
